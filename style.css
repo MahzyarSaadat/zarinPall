@@ -1,0 +1,533 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    font-family:  vazirmatn , sans-serif;
+}
+
+/* 
+=======================
+Navigarion Classes
+=======================
+*/
+.navigation{
+    position: relative;
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    background-color: transparent;
+    z-index: 999;
+}
+
+.navigation .main{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 70px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    margin: auto;
+}
+
+.main .logo-container{
+    width: 300px;
+    margin-right: 1.5em;
+}
+
+.main .nav-list{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 600px;
+}
+
+.main ul li{
+    margin-left: 1.5em;
+    list-style-type: none;
+}
+
+.main ul li button{
+    padding: .8em;
+    border: none;
+    border-radius: 20px;
+}
+
+/* 
+=======================
+Utitlity Classes
+=======================
+*/
+.btn{
+    cursor: pointer;
+    font-family: vazirmatn , sans-serif;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    padding: .5em;
+}
+
+
+
+/* 
+=======================
+Header Classes
+=======================
+*/
+.header{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+header .box-context{
+    width: 600px;
+}
+
+header .box-context h3{
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+header .box-context p{
+    margin-bottom: 4em;
+    width: 500px;
+    line-height: 2;
+}
+
+header .box-img{
+    width: 580px;
+    height: auto;
+}
+
+.buttons-container .btn{
+    cursor: pointer;
+    font-family: vazirmatn , sans-serif;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    padding: .5em;
+}
+
+.btn.btn-yellow{
+    background-color: rgb(229, 229, 48);
+}
+
+.header .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1200px;
+    height: auto;
+    background-color: orange;
+    padding: 12em 6em 5em;
+    border-radius: 20px;
+}
+/* 
+=======================
+Main Classes
+=======================
+*/
+main{
+    width: 1200px;
+    height: 1200px;
+    background-color: transparent;
+    margin: auto;
+    padding: 1em;
+}
+
+main .page-getway{
+    margin-top: 6em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+main .page-getway .getway-context{
+    margin-top: 4em;
+    width: 600px;
+    line-height: 2.5;
+}
+
+main .page-getway .getway-context p{
+    text-align: justify;
+    margin-bottom: 1.5em;
+}
+
+main .page-getway .getway-context h3 span{
+    font-size: .8em;
+    font-weight: 300;
+}
+
+main .page-getway .getway-context h3{
+    font-size: 1.8em;
+}
+
+.getway-img{
+    position: relative;
+    width: 457px;
+    height: 518px;
+
+}
+
+.getway-img img{
+    position: absolute;
+    top: 23px;
+    width: 100%;
+    height: 100%;
+}
+
+.page-getway .buttons-container{
+    margin-top: 1.5em;
+}
+
+
+/* Zarin link Classes */
+main .page-zarinlink{
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main .page-zarinlink .zarinlink-context{
+    margin-top: 4em;
+    width: 540px;
+    line-height: 2.5;
+}
+
+main .page-zarinlink .zarinlink-context p{
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+main .page-zarinlink .zarinlink-context h3 span{
+    font-size: .8em;
+    font-weight: 300;
+}
+
+main .page-zarinlink .zarinlink-context h3{
+    font-size: 1.8em;
+}
+
+.zarinlink-img{
+    position: relative;
+    width: 600px;
+    height: 517px;
+}
+
+.zarinlink-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 28px;
+}
+
+.page-zarinlink .buttons-container{
+    margin-top: 1.5em;
+}
+
+/* ZarinCard Classes */
+main .page-zarincard{
+    margin-top: 6em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .page-zarincard .zarincard-context{
+    margin-top: 4em;
+    width: 560px;
+    line-height: 2.5;
+}
+
+main .page-zarincard .zarincard-context p{
+    text-align: justify;
+    margin-bottom: 1.5em;
+}
+
+main .page-zarincard .zarincard-context h3 span{
+    font-size: .8em;
+    font-weight: 300;
+}
+
+main .page-zarincard .zarincard-context h3{
+    font-size: 1.8em;
+}
+
+.zarincard-img{
+    position: relative;
+    width: 408px;
+    height: 266px;
+
+}
+
+.zarincard-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.page-zarincard .buttons-container{
+    margin-top: 1.5em;
+}
+
+/* Tashim */
+main .page-tashim{
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main .page-tashim .tashim-context{
+    margin-top: 4em;
+    width: 540px;
+    line-height: 2.5;
+}
+
+main .page-tashim .tashim-context p{
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+main .page-tashim .tashim-context h3 span{
+    font-size: .8em;
+    font-weight: 300;
+}
+
+main .page-tashim .tashim-context h3{
+    font-size: 1.8em;
+}
+
+.tashim-img{
+    position: relative;
+    width: 600px;
+    height: 517px;
+}
+
+.tashim-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 45px;
+}
+
+.page-tashim .buttons-container{
+    margin-top: 1.5em;
+}
+/* ZarinPlus Classes */
+main .page-zarinPlus{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .page-zarinPlus .zarinPlus-context{
+    margin-top: 4em;
+    width: 560px;
+    line-height: 2.5;
+}
+
+main .page-zarinPlus .zarinPlus-context p{
+    text-align: justify;
+    margin-bottom: 1.5em;
+}
+
+main .page-zarinPlus .zarinPlus-context h3 span{
+    font-size: .8em;
+    font-weight: 300;
+}
+
+main .page-zarinPlus .zarinPlus-context h3{
+    font-size: 1.8em;
+}
+
+.zarinPlus-img{
+    position: relative;
+    width: 408px;
+    height: 266px;
+
+}
+
+.zarinPlus-img img{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.page-zarinPlus .buttons-container{
+    margin-top: 1.5em;
+}
+
+/* Specification Classes */
+.specification{
+    margin-top: 6em;
+    width: 1200px;
+    height: 400px;
+    background-color: transparent;
+}
+
+.specification .read-more{
+    text-align: justify;
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+
+.specification .read-more h3{
+    white-space: nowrap;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.specification .read-more p{
+    line-height: 2;
+}
+
+.specification .box{
+    width: 700px;
+    height: auto;
+    float: left;
+}
+
+.specification .box .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.specification .box .cell , td{
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    text-align: start;
+}
+
+.specification .box .cell .cell-header{
+    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.specification .box .cell p{
+    line-height: 2;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.border-left{
+    border-left: 1px solid #cbcbcb;
+}
+
+/* Join-box Classes */
+.join-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+    margin-top: 6em;
+    width: 1200px;
+    height: auto;
+    padding: 3em;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+}
+
+.join-box h3{
+    font-size: 2em;
+}
+
+.join-box h4{
+    font-size: 1.5em;
+}
+
+/* Support Classes */
+.support{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+    margin-top: 3em;
+    width: 1200px;
+    height: 75px;
+    background-color: #fbf6f1;
+    border-radius: 30px;
+}
+
+.support ul{
+    display: flex;
+    gap: 1em;
+    font-size: 1.1em;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.support button{
+    border: none;
+    background-color: transparent;
+    font-family: vazirmatn , sans-serif;
+    font-size: 1.3em;
+}
+
+/* 
+=======================
+footer Classes
+=======================
+*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+.footer li:first-child{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.footer .nav-lists{
+    margin-top: 1.5em;
+    display: flex;
+    gap: 1.5em;
+}
+
+.footer .socialMedia{
+    float: left;
+    margin-left: 2em;
+}
+
+.footer .socialMedia .socialMedia-lists{
+    display: flex;
+    margin-top: 1.5em;
+} 
+
+.footer .socialMedia .socialMedia-lists li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.footer .socialMedia .socialMedia-lists li i{
+    font-size: 1.2em;
+}
